@@ -1,0 +1,9 @@
+# wee
+
+Weeeeeeeee! This is a less template!
+
+## TODO
+
+- bootstrap script(s) // don't always use alias :)
+
+- remove script(s)
