@@ -3,13 +3,13 @@
   .fixed(@grid_column_width, @grid_gutter_width) {
     .spanX(@index) when (@index > 0) {
       (~".span@{index}") {.span(@index);}
-      .spanX(@index-1); // next one
+      .spanX(@index - 1); // next one
     }
     .spanX(0) {} // just stop
 
     .offsetX(@index) when (@index > 0) {
       (~".offset@{index}") {.offset(@index);}
-      .offsetX(@index-1);
+      .offsetX(@index - 1);
     }
     .offsetX(0) {}
 
